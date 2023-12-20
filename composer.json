@@ -1,0 +1,31 @@
+{
+  "name": "testbundlespimcore/pimcorefoobundle",
+  "type": "pimcore-bundle",
+  "license": "GPL-3.0-or-later",
+  "description": "Test Bundle skeleton for Pimcore",
+  "keywords": ["pimcore", "testskeleton"],
+  "homepage": "https://github.com/Test-Bundles-Pimcore/PimcoreFooBundle",
+  "authors": [
+    {
+      "name": "Pimcore Test Bundle skeleton",
+      "email": "sanker03@yahoo.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "test-bundles-pimcore\\": "src/test-bundles-pimcore/"
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "test-bundles-pimcore\\PimcoreFooBundle\\TestBundlesPimcorePimcoreFooBundle"
+      ]
+    }
+  },
+  "require": {
+    "pimcore/pimcore": "^11",
+    "php":"^8.0"
+  }
+}

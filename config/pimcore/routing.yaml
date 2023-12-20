@@ -1,0 +1,5 @@
+test_bundles_pimcore_pimcore_foo:
+    resource: "@TestBundlesPimcorePimcoreFooBundle/src/Controller/"
+    type:     annotation
+    prefix:   /
+
